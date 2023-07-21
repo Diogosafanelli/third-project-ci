@@ -78,3 +78,57 @@ users = [
 
 selected_user = None
 name = str(input("Enter your username: "))
+
+# Check if the entered username exists in the user list
+for user in users:
+    if user["userName"] == name:
+        selected_user = user
+        break
+
+if selected_user is not None:
+    if login(selected_user["pin"]):
+        balance = selected_user["balance"]
+        exit = 0
+
+        while not exit:
+            print("=" * 80)
+            print("\033[95mWhat do you want to do?\033[0m \n")
+
+            print("\033[95m 1.Check Balance\033[0m ")
+            print("\033[95m 2.Deposit money\033[0m")
+            print("\033[95m 3.Withdraw money\033[0m ")
+            print("\033[95m 4.Exit\033[0m ")
+            print("=" * 80)
+
+            choice = int(input("Enter your choice: "))
+
+            if choice == 1:
+                print("=" * 80)
+                print("\t\t\033[34mBALANCE CHECK\033[0m")
+                check_balance(balance)
+
+            elif choice == 2:
+                print("=" * 80)
+                print("\t\t\033[34mMONEY DEPOSIT\033[0m")
+                balance = deposit(balance)
+
+            elif choice == 3:
+                print("=" * 80)
+                print("\t\t\033[34mMONEY WITHDRAWAL\033[0m")
+                balance = withdraw(balance)
+
+            elif choice == 4:
+                choose = str(
+                    input("Are you sure you want to exit? Yes(Y) or No(N): "))
+
+                if choose in ['Y', 'YES', 'y', 'yes']:
+                    print("=" * 80)
+                    print(
+                        "\t\t\033[33mThank you for using our ATM Service. Goodbye!\033[0m")
+                    exit = 1
+
+            else:
+                print("Invalid choice. Please try again.")
+
+else:
+    print("Invalid username")

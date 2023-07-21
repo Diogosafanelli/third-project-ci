@@ -1,6 +1,6 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-https://atm-3d08234ef3ca.herokuapp.com/
+[ATM](https://atm-3d08234ef3ca.herokuapp.com/)
 
 Welcome,
 

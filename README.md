@@ -1,6 +1,16 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# ATM Bank
 
-[ATM](https://atm-3d08234ef3ca.herokuapp.com/)
+ With the ATM bank project you will have access to your bank account being able to perform all the most common services of a common bank such as checking your balance, making a deposit, withdrawing money
+
+The project is deployed on Heroku and is strictly terminal-based for user interaction
+
+ - Here is the link to the final project > [ATM](https://atm-3d08234ef3ca.herokuapp.com/)
+
+ 
+![am I responsive ATM](https://github.com/Diogosafanelli/third-project-ci/assets/131887685/0ea9402f-ae07-41b8-ad04-4050186dc7cd)
+
+
+
 
 Welcome,
 

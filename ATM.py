@@ -19,3 +19,8 @@ def login(correct_pin):
     print("=" * 80)
     print("\033[33mToo many incorrect attempts. Exiting...\033[0m")
     return False
+
+
+# Function to check the account balance
+def check_balance(balance):
+    print(f"Your current balance is: ${balance}")    

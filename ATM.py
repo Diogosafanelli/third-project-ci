@@ -38,3 +38,16 @@ def deposit(balance):
     else:
         print("Invalid amount. Deposit failed.")
 
+
+# Function to withdraw money from the account
+def withdraw(balance):
+    amount = float(input("Enter the amount to withdraw: $"))
+
+    # Check if the amount is valid (greater than 0) and if there are sufficient funds
+    if amount > 0 and amount <= balance:
+        balance -= amount
+        print(f"Withdrawal successful. Your new balance is: ${balance}")
+        return balance
+    else:
+        print("Insufficient funds or invalid amount. Withdrawal failed.")
+

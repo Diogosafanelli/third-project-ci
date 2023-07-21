@@ -68,3 +68,13 @@ print("=" * 80)
 
 print("\t\t\t\033[33mWELCOME TO OUR ATM SERVICE\033[0m")
 print("=" * 80)
+
+# Define the list of user information
+users = [
+    {"userName": "John", "pin": 2021, "balance": 500},
+    {"userName": "Jane", "pin": 1920, "balance": 1050},
+    {"userName": "Mike", "pin": 2122, "balance": 3500}
+]
+
+selected_user = None
+name = str(input("Enter your username: "))

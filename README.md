@@ -10,6 +10,28 @@ The project is deployed on Heroku and is strictly terminal-based for user intera
 ![am I responsive ATM](https://github.com/Diogosafanelli/third-project-ci/assets/131887685/0ea9402f-ae07-41b8-ad04-4050186dc7cd)
 
 
+ ## UX/UI Design
+ <hr>
+
+ ### Strategy
+
+#### Site owner goals
+
+- ATM bank is a project for those who love money, you will have the experience of having an ATM inside your home, being able to do your banking transactions in the comfort of your home, of course this is just a fun experience of how to deal with an atm inside your home
+
+#### User stories
+
+- As a user, I want to understand the purpose of the website, so I can know if it's of interest to me.
+- As a user, I want to easily navigate the site/ATM, so I don't lose enthusiasm for using the site.
+- As a user, I want to be able to learn something new, so I fulfill the objective that brought me to the site.
+- As a user, I want to be able to restart/quit the ATM, if it is in my interest to start again for some reason
+
+### Scope
+
+- For the ATM Bank I have planned the following features.
+  - Use of the python language efficiently to make the ATM don't show any problems.
+  - Through the terminal-based, display as clearly as possible the ATM dynamic.
+  - Use technologies and tools that improve site development and performance.
 
 
 Welcome,

@@ -23,4 +23,18 @@ def login(correct_pin):
 
 # Function to check the account balance
 def check_balance(balance):
-    print(f"Your current balance is: ${balance}")    
+    print(f"Your current balance is: ${balance}") 
+
+
+# Function to deposit money into the account
+def deposit(balance):
+    amount = float(input("Enter the amount to deposit: $"))
+
+    # Check if the amount is valid (greater than 0)
+    if amount > 0:
+        balance += amount
+        print(f"Deposit successful. Your new balance is: ${balance}")
+        return balance
+    else:
+        print("Invalid amount. Deposit failed.")
+

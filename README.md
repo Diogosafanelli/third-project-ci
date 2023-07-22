@@ -106,29 +106,91 @@ The ATM Bank project structure is based on a single static web page with the ter
   - Edge  
   
 
-## Reminders
+### Validator Testing
+- Pyhton
+- I tested the code through PEP8 and no significant errors were presented.
 
-- Your code must be placed in the `run.py` file
-- Your dependencies must be placed in the `requirements.txt` file
-- Do not edit any of the other files or your code may not deploy properly
 
-## Creating the Heroku app
+### User Story Testing
+- User Story 01: As a user, I want to understand the purpose of the website, so I can know if it's of interest to me.
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+- Outcome: When the user visits the application can access the rules to understand the game. Passed.
 
-1. `heroku/python`
-2. `heroku/nodejs`
+- User Story 02: As a user, I want to easily navigate the site/ATM, so I don't get lost trying to navigate/play.
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+- Outcome: When the user visits the application he can read the options for each action, and the actions are subjective. Passed.
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+- User Story 03: As a user, I want to be able to check my balance, make deposite, make withdraw.
+  
 
-Connect your GitHub repository and deploy as normal.
+### Unfixed Bugs
 
-## Constraints
+- Up to the present moment when this project has been finalized, I have not identified any unfixed errors.
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
 
----
+## Deployment
+<hr>
 
-Happy coding!
+- To create this project I used GitHub and GitPod.
+- I used the Code Institute Python Essentials Template, clicking on the "Use this template" button. From there I created the repository on Github with my username.
+- These commands were used for version control during project:
+  - git status - to check the status of the files to be commited.
+  - git add filename - to add files before committing.
+  - git commit -m "message" - to commit changes to the local repository.
+  - git push - to push all committed changes to the GitHub repository.
+ 
+### Deployment
+
+- After finishing developing the program I deployed it on Heroku following these steps:
+  - Create an account if you don't have one and login into Heroku website
+  - After logged in, you should click on "New -> Create new app" button
+  - Insert your app's Name (need to be unique), then you need to Choose your region, at the end click on the "Create App" button
+  - Navigate into the Settings tab, and go to "Config vars" section, then go to "Reveal Config Vars"
+  - Enter the PORT in the KEY section and 8000 for its value, then click "Add"
+  - Next you need to go to "Buildpacks" section and click "Add buildpack"
+  - Firstly add the Python buildpack then NodeJs, need to be in that order
+  - Navigate to the "Deploy" tab, and select Github as the deployment method
+  - You need to look for your repository name and select the option Connect
+  - You can choose between two deployment options for your app to Heroku (Automatic or Manual).
+  - With automatic deploys enabled, your app will be updated each time a change has been pushed to the repository
+  - With manual deploys, your app will be updated only when you manually click to deploy it
+  - After these steps the deploying is finished, a link will be provided to you for accessing your app
+
+
+
+### Fork 
+
+
+- Forks let you make changes to a project without affecting the original repository. Follow this steps:
+
+1. Go to the repository page, can be accessed [here](tps://diogosafanelli.github.io/third-project-ci/)
+2. On top right, you select the Fork option and proceed.
+3. A duplicate will be created inside your repository.
+
+
+## Technologies and tools
+<hr>
+
+- Programming languages used: Python 3.6
+- Python libraries used: random / os / time
+- Gitpod - Used to create/edit the code of the project.
+- Github - Used to create repository, hosting files and deployment of the website.
+- Heroku - Used to deploy the project
+- Ludichart - Used to create the flowchart.
+- PEP8 - Used to test/validate Python code.
+- Python Tutor - Used to run tests during project development.
+
+
+## Credits
+<hr>
+
+### Media
+
+- The image used for README.md responsive mockup was taken from Am I Responsive.
+
+  
+## Acknowledgements
+
+- Code Institute for all the support and the team always ready to help.
+- My wife and my friends for motivating me to achieve my best.
+- Everyone in the Slack community for tips and opinions.

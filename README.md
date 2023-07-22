@@ -59,7 +59,15 @@ The ATM Bank project structure is based on a single static web page with the ter
  
 #### Rules
 
-- When selecting the rules, the terminal will show a list containing Guide instructions and the objective of the ATM
+- When selecting the menu, the terminal will show a list containing Guide instructions and the objective of the ATM
+
+![ATM menu page](https://github.com/Diogosafanelli/third-project-ci/assets/131887685/4e31f242-0520-4e17-829c-964815c91eed)
+
+#### Quit
+
+- When you execute the exit option, the program will be closed. It will no longer give the player the option to execute any commands, only after restarting the page or through the run button
+
+![ATM Exit page](https://github.com/Diogosafanelli/third-project-ci/assets/131887685/d4213844-c07f-4078-b5d0-29025197cad5)
 
 This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **March 14, 2023**
 

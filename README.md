@@ -34,7 +34,32 @@ The project is deployed on Heroku and is strictly terminal-based for user intera
   - Use technologies and tools that improve site development and performance.
 
 
-Welcome,
+### Structure
+
+The ATM Bank project structure is based on a single static web page with the terminal-based to run the game.
+
+### Surface
+
+#### Colour scheme
+
+- To make the ATM Bank more intuitive and to highlight certain aspects such as suits, selection options or to highlight one information differently from another. I chose to use ANSI colors in the terminal.
+
+
+## Features
+<hr>
+
+### Existing Features
+
+
+#### Main menu
+
+- When you start the program, the main menu is displayed. In which the name of the ATM/project appears in Green followed by the initial options for the user to run. These are [Mike] to Username, [2122] to PIN, and [Q] to close the program.
+
+![ATM main page](https://github.com/Diogosafanelli/third-project-ci/assets/131887685/7d96b2b0-d11b-4010-b223-fb44fe80724a)
+ 
+#### Rules
+
+- When selecting the rules, the terminal will show a list containing Guide instructions and the objective of the ATM
 
 This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **March 14, 2023**
 

@@ -69,7 +69,42 @@ The ATM Bank project structure is based on a single static web page with the ter
 
 ![ATM Exit page](https://github.com/Diogosafanelli/third-project-ci/assets/131887685/d4213844-c07f-4078-b5d0-29025197cad5)
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **March 14, 2023**
+#### Selecting Opcions 
+
+- Is executed right after the User chooses option [1, 2, 3, 4] to access. Before starting he must choose between one of the options to decide whether to withdraw, deposit or check the balance
+
+![ATM options page](https://github.com/Diogosafanelli/third-project-ci/assets/131887685/3278b258-9ed8-416f-8f65-ad276d08cacd)
+
+
+### Features Left to Implement
+
+- To be implemented in the future, I am thinking about the possibility of adding a ranking that receives the users name defeat points. This ranking would be accessed from the menu to encourage users to try to use the program more often to become a regular customer.
+
+
+## Testing
+<hr>
+- During these tests, the size of the displays was adjusted, when to clean the terminal to keep the ATM fixed. In the end, I found what I believe to be the most pleasing and intuitive look for the scope of a terminal-based ATM.
+
+
+### Funcionality
+
+- Once the ATM Bank was finished, I tryed it several times to find possible flaws or errors that could compromise the performance or interrupt the ATM. All commands are responding as they should, when some wrong selection is sent to the terminal, the answers are appearing to the user. So far, when I finished and made the final deployment, the ATM is responding with no apparent errors.
+
+### Navegation and Devices
+
+- Desktop
+  - Sony Vaio (Laptop)
+  - Dell XPS (Laptop)
+  - Asus Chromebook (Laptop)
+  - Macbook Air (Laptop)
+  - HP (CPU)
+
+- Browsers
+  - Chrome
+  - Firefox
+  - Safari
+  - Edge  
+  
 
 ## Reminders
 
